@@ -1,0 +1,127 @@
+/* Definir la fuente y el tamaño para el texto principal */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Agregar un color de fondo al encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Cambiar el color y el tamaño del texto en la barra de navegación */
+nav a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Agregar estilos a la imagen de la marca */
+.header-logo img {
+    max-width: 150px;
+}
+
+/* Estilizar el título principal */
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Estilizar el botón en la sección de características destacadas */
+.featured-heading .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Agregar un borde alrededor de las características destacadas */
+.featured-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Estilizar los títulos y el texto en las características destacadas */
+.featured-item h3 {
+    margin-top: 0;
+}
+
+.featured-item p {
+    margin-bottom: 0;
+}
+
+/* Estilizar la sección del blog */
+.blog {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Agregar un borde alrededor de las publicaciones del blog */
+.blog-post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Estilizar los títulos y el texto en las publicaciones del blog */
+.blog-post h3 {
+    margin-top: 0;
+}
+
+.blog-post p {
+    margin-bottom: 0;
+}
+
+/* Estilizar la sección del pie de página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilizar las columnas del pie de página */
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h4 {
+    margin-top: 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilizar la sección inferior del pie de página */
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin-bottom: 0;
+}
